@@ -6,7 +6,7 @@
     "homepage": "http://www.verot.net/php_class_upload.htm",
     "license": "GPLv2",
     "authors": [
-        {"name": "Verot", "email": "colin@verot.net   "}
+        {"name": "Colin Verot", "email": "colin@verot.net   "}
     ],
     "require": {
         "php": ">=5.3.0",
