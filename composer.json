@@ -1,0 +1,22 @@
+{
+    "name": "petitp/verot-upload",
+    "type": "library",
+    "description": "This PHP script uploads by Verot",
+    "keywords": ["upload", "resize", "image"],
+    "homepage": "http://www.verot.net/php_class_upload.htm",
+    "license": "GPLv2",
+    "authors": [
+        {"name": "Verot", "email": "colin@verot.net   "}
+    ],
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "autoload": {
+        "psr-0": { "Verot\\": "lib/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.33.x-dev"
+        }
+    }
+}
