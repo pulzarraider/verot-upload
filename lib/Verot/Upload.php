@@ -2242,6 +2242,12 @@ class Upload {
      */
     var $language;
 
+    public function __construct($file, $lang = 'en_GB')
+    {
+        $this->upload($file, $lang);
+    }
+
+
     /**
      * Init or re-init all the processing variables to their default values
      *
